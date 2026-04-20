@@ -1,13 +1,15 @@
-export const products = [
+import { Product } from "@/types";
+
+export const products:Product[] = [
   {
     "id": "f683ec30-dc17-48aa-9d80-b28387784a84",
     "title": "Wireless Noise-Cancelling Headphones",
-    "price": "299.99",
+    "price": 299.99,
     "description": "Premium over-ear headphones with 30-hour battery life, adaptive noise cancellation, and crystal-clear audio. Perfect for travel, work, or relaxation.",
     "image_url": "https://images.pexels.com/photos/3945667/pexels-photo-3945667.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Electronics",
     "brand": "SoundPro",
-    "rating": "4.8",
+    "rating": 4.8,
     "review_count": 2340,
     "stock": 45,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -15,12 +17,12 @@ export const products = [
   {
     "id": "a99ecb66-2f79-4b49-be72-1cefe7625b09",
     "title": "Slim Laptop 15\"",
-    "price": "1249.00",
+    "price": 1249.00,
     "description": "Ultra-thin laptop with 12th Gen processor, 16GB RAM, 512GB SSD, and a stunning 15.6\" Full HD display. Built for productivity and portability.",
     "image_url": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800",
     "category": "Electronics",
     "brand": "TechBook",
-    "rating": "4.7",
+    "rating": 4.7,
     "review_count": 1890,
     "stock": 30,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -28,12 +30,12 @@ export const products = [
   {
     "id": "28f0afbe-e4b9-4477-8293-fcecbe998513",
     "title": "Smartphone Pro Max",
-    "price": "999.00",
+    "price": 999.00,
     "description": "Flagship smartphone with a 6.7\" AMOLED display, 200MP camera system, 5000mAh battery, and the fastest mobile chip on the market.",
     "image_url": "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Electronics",
     "brand": "Nexus",
-    "rating": "4.9",
+    "rating": 4.9,
     "review_count": 5670,
     "stock": 120,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -41,12 +43,12 @@ export const products = [
   {
     "id": "4905a92f-e28e-4a57-b348-be6cabeb4689",
     "title": "Mechanical Keyboard",
-    "price": "129.99",
+    "price": 129.99,
     "description": "Full-size mechanical keyboard with RGB backlighting, tactile switches, and a durable aluminum frame. Elevate your typing and gaming experience.",
     "image_url": "https://images.pexels.com/photos/1772123/pexels-photo-1772123.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Electronics",
     "brand": "KeyMaster",
-    "rating": "4.6",
+    "rating": 4.6,
     "review_count": 987,
     "stock": 200,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -54,12 +56,12 @@ export const products = [
   {
     "id": "ec8f8ecb-cfce-48d2-b7bf-b372ac16052f",
     "title": "4K Action Camera",
-    "price": "349.99",
+    "price": 349.99,
     "description": "Compact action camera shooting 4K at 60fps, with image stabilization, waterproof casing up to 30m, and wide-angle lens. Adventure-ready.",
     "image_url": "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Electronics",
     "brand": "ActionCam",
-    "rating": "4.5",
+    "rating": 4.5,
     "review_count": 1456,
     "stock": 75,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -67,12 +69,12 @@ export const products = [
   {
     "id": "4fcb963d-d43e-48a3-b1f2-20b5f55098b0",
     "title": "Premium Running Sneakers",
-    "price": "139.99",
+    "price": 139.99,
     "description": "Lightweight performance running shoes with responsive cushioning, breathable mesh upper, and durable rubber outsole. Engineered for speed and comfort.",
     "image_url": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Clothing",
     "brand": "SwiftStride",
-    "rating": "4.7",
+    "rating": 4.7,
     "review_count": 3210,
     "stock": 250,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -80,12 +82,12 @@ export const products = [
   {
     "id": "34d0709c-ec87-497a-8203-8928b8a5280e",
     "title": "Classic Denim Jacket",
-    "price": "89.99",
+    "price": 89.99,
     "description": "Timeless denim jacket crafted from premium 100% cotton denim. Features a relaxed fit, two chest pockets, and a versatile style that pairs with everything.",
     "image_url": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Clothing",
     "brand": "DenimCo",
-    "rating": "4.4",
+    "rating": 4.4,
     "review_count": 765,
     "stock": 180,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -93,12 +95,12 @@ export const products = [
   {
     "id": "5c55281b-450d-4943-ba24-98c6404649f1",
     "title": "Merino Wool Sweater",
-    "price": "119.99",
+    "price": 119.99,
     "description": "Luxuriously soft merino wool sweater with a classic crew neck. Naturally temperature-regulating, odor-resistant, and perfect for layering in any season.",
     "image_url": "https://images.pexels.com/photos/45982/pexels-photo-45982.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Clothing",
     "brand": "WoolCraft",
-    "rating": "4.6",
+    "rating": 4.6,
     "review_count": 432,
     "stock": 90,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -106,12 +108,12 @@ export const products = [
   {
     "id": "c632a483-36a7-476c-86fd-891fbd50e3ba",
     "title": "Everyday Backpack",
-    "price": "79.99",
+    "price": 79.99,
     "description": "Versatile 25L backpack with a padded laptop sleeve, multiple organizer pockets, water-resistant fabric, and comfortable ergonomic shoulder straps.",
     "image_url": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Clothing",
     "brand": "TravelPro",
-    "rating": "4.5",
+    "rating": 4.5,
     "review_count": 2100,
     "stock": 160,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -119,12 +121,12 @@ export const products = [
   {
     "id": "5e6fb5c6-0c25-4195-8306-bbb7b7e2d86a",
     "title": "Luxury Wristwatch",
-    "price": "449.99",
+    "price": 449.99,
     "description": "Elegant Swiss-inspired wristwatch with sapphire crystal glass, stainless steel case, genuine leather strap, and 50m water resistance.",
     "image_url": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Clothing",
     "brand": "TimeCraft",
-    "rating": "4.8",
+    "rating": 4.8,
     "review_count": 890,
     "stock": 40,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -132,12 +134,12 @@ export const products = [
   {
     "id": "eba50a8e-1322-404d-b866-45591cd6bbae",
     "title": "The Art of Clean Code",
-    "price": "34.99",
+    "price": 34.99,
     "description": "A practical guide to writing readable, maintainable, and efficient code. Covers best practices, design patterns, and refactoring techniques for modern software development.",
     "image_url": "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Books",
     "brand": "TechPress",
-    "rating": "4.9",
+    "rating": 4.9,
     "review_count": 4520,
     "stock": 500,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -145,12 +147,12 @@ export const products = [
   {
     "id": "57625b5e-5205-492d-bf1f-fb6a0429b464",
     "title": "Deep Work: Focused Success",
-    "price": "19.99",
+    "price": 19.99,
     "description": "Rules for achieving focused success in a distracted world. Learn how to cultivate deep focus, eliminate shallow work, and produce at an elite level.",
     "image_url": "https://images.pexels.com/photos/1112048/pexels-photo-1112048.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Books",
     "brand": "MindPress",
-    "rating": "4.7",
+    "rating": 4.7,
     "review_count": 8930,
     "stock": 300,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -158,12 +160,12 @@ export const products = [
   {
     "id": "c3fcae26-9e08-4409-b917-4b98439def75",
     "title": "The Design of Everyday Things",
-    "price": "24.99",
+    "price": 24.99,
     "description": "A perennial bestseller that examines how design serves as the communication between object and user. Essential reading for designers and product thinkers.",
     "image_url": "https://images.pexels.com/photos/256431/pexels-photo-256431.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Books",
     "brand": "DesignBooks",
-    "rating": "4.8",
+    "rating": 4.8,
     "review_count": 3400,
     "stock": 200,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -171,12 +173,12 @@ export const products = [
   {
     "id": "252887c7-b77c-4cc6-9b84-39b63831b64e",
     "title": "Atomic Habits",
-    "price": "22.99",
+    "price": 22.99,
     "description": "An easy and proven way to build good habits and break bad ones. Tiny changes, remarkable results — backed by psychology and neuroscience.",
     "image_url": "https://images.pexels.com/photos/694740/pexels-photo-694740.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Books",
     "brand": "HabitPress",
-    "rating": "4.9",
+    "rating": 4.9,
     "review_count": 12000,
     "stock": 400,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -184,12 +186,12 @@ export const products = [
   {
     "id": "722709b0-19c1-43d5-8a04-5ec1b0ca8eb2",
     "title": "Espresso Coffee Machine",
-    "price": "399.99",
+    "price": 399.99,
     "description": "Professional-grade espresso machine with 15-bar pressure pump, built-in steam wand, dual heating system, and a sleek stainless steel body for barista-quality coffee at home.",
     "image_url": "https://images.pexels.com/photos/4349770/pexels-photo-4349770.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Home & Kitchen",
     "brand": "BrewMaster",
-    "rating": "4.7",
+    "rating": 4.7,
     "review_count": 1230,
     "stock": 55,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -197,12 +199,12 @@ export const products = [
   {
     "id": "ec840057-bbe5-4ad1-8b6c-8ed5809b2bcd",
     "title": "Smart Air Purifier",
-    "price": "249.99",
+    "price": 249.99,
     "description": "HEPA air purifier covering up to 500 sq ft, with real-time air quality monitoring, auto mode, whisper-quiet fan, and a smart app for remote control.",
     "image_url": "https://images.pexels.com/photos/1358900/pexels-photo-1358900.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Home & Kitchen",
     "brand": "PureAir",
-    "rating": "4.6",
+    "rating": 4.6,
     "review_count": 876,
     "stock": 80,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -210,12 +212,12 @@ export const products = [
   {
     "id": "0415558b-5f21-4d6e-9924-78108be09997",
     "title": "Cast Iron Skillet Set",
-    "price": "69.99",
+    "price": 69.99,
     "description": "Pre-seasoned cast iron skillet set (8\", 10\", 12\") for superior heat retention and distribution. Oven-safe to 500°F, compatible with all stovetops including induction.",
     "image_url": "https://images.pexels.com/photos/2067436/pexels-photo-2067436.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Home & Kitchen",
     "brand": "IronChef",
-    "rating": "4.8",
+    "rating": 4.8,
     "review_count": 2340,
     "stock": 150,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -223,12 +225,12 @@ export const products = [
   {
     "id": "cdbe16eb-a991-4344-94b3-a69c71639b33",
     "title": "Bamboo Cutting Board Set",
-    "price": "39.99",
+    "price": 39.99,
     "description": "Set of 3 premium bamboo cutting boards in different sizes. Naturally antimicrobial, knife-friendly, with juice grooves and non-slip rubber feet.",
     "image_url": "https://images.pexels.com/photos/4226867/pexels-photo-4226867.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Home & Kitchen",
     "brand": "GreenHome",
-    "rating": "4.5",
+    "rating": 4.5,
     "review_count": 1560,
     "stock": 300,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -236,12 +238,12 @@ export const products = [
   {
     "id": "57904a69-6e3a-4aa8-a8a9-d6167da30312",
     "title": "Yoga Mat Premium",
-    "price": "59.99",
+    "price": 59.99,
     "description": "Extra-thick 6mm non-slip yoga mat made from eco-friendly natural rubber. Superior grip, moisture-resistant surface, and alignment lines for perfect form.",
     "image_url": "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Sports",
     "brand": "ZenFit",
-    "rating": "4.7",
+    "rating": 4.7,
     "review_count": 3450,
     "stock": 220,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -249,12 +251,12 @@ export const products = [
   {
     "id": "f9ce3533-b304-4da9-bcc3-e5fd12381c77",
     "title": "Adjustable Dumbbells Set",
-    "price": "299.99",
+    "price": 299.99,
     "description": "Space-saving adjustable dumbbells that replace 15 pairs of weights. Quick-change weight selection from 5 to 52.5 lbs in 2.5 lb increments.",
     "image_url": "https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Sports",
     "brand": "IronFlex",
-    "rating": "4.8",
+    "rating": 4.8,
     "review_count": 1890,
     "stock": 60,
     "created_at": "2026-04-19 09:45:00.098672+00"
@@ -262,12 +264,12 @@ export const products = [
   {
     "id": "be986d49-f2f4-4b0d-a45a-4aef93084984",
     "title": "Smart Fitness Watch",
-    "price": "199.99",
+    "price": 199.99,
     "description": "Advanced fitness tracker with GPS, heart rate monitoring, sleep tracking, 50+ workout modes, 7-day battery life, and water resistance to 50 meters.",
     "image_url": "https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=800",
     "category": "Sports",
     "brand": "FitTrack",
-    "rating": "4.6",
+    "rating": 4.6,
     "review_count": 4320,
     "stock": 110,
     "created_at": "2026-04-19 09:45:00.098672+00"
