@@ -1,4 +1,5 @@
 import { Suspense } from 'react';
+import ProductDetailClient from './productdetailclient';
 
 interface PageProps {
     params: { id: string };
