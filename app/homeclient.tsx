@@ -206,7 +206,7 @@ const HomeClient = () => {
                             </button>
                         </div>
                         <div className="p-4">
-                            <Sidebar />
+                            <SideBar />
                         </div>
                     </div>
                 </div>
